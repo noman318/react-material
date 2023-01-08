@@ -5,7 +5,7 @@ export const MuiTypography = () => {
   return (
   <div>
     {/* <Typography variant="h1">h1 heading</Typography> */}
-    <Typography variant="h2">h2 heading</Typography>
+    <Typography variant="h2">MUI Practice</Typography>
     {/* <Typography variant="h3">h3 heading</Typography>
     <Typography variant="h4">h4 heading</Typography> */}
     {/* <Typography variant="h4" component='h1' gutterBottom>h4 style but h1 components and margin bottom = gutterBottom heading</Typography> */}
