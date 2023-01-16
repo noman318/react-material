@@ -4,6 +4,7 @@ import { ExpandMore } from '@mui/icons-material'
 
 export const MuiAccordian = () => {
     const [expanded, setExpanded] = useState<string|false>(false)
+    console.log('expanded :>> ', {expanded});
     const handleExpanded=(isExpanded:boolean,panel:string)=>{
         setExpanded(isExpanded?panel:false)
     }
